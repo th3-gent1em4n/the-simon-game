@@ -63,9 +63,7 @@ function nextSequence()
     $("#"+randomChosenColour).fadeOut(100).fadeIn(100);
 }
 
-
 $(".btn").click( function(){
-    
     var userChosenColour = $(this).attr("id");
 
     userClickedPattern.push(userChosenColour);
@@ -92,5 +90,4 @@ function animatePress(userChosenColour)
     },150);
 }
 
-// test3
-// lol lol lol
+
